@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Hogwarts</title>
+    </head>
+
+    <!--Home start -->
+    <body style="align-items: center;">
+        <h1 class="cv">Hogwarts Legacy</h1>
+        <div class="hero">
+            <header>
+                <div>
+                    <nav id="navbar">
+                        <a style="border-radius: 25px;" href="events.html">Events</a>
+                        <a style="border-radius: 25px;" href="houses.html">Houses</a>
+                        <a style="border-radius: 25px;" href="history.html">History</a>
+                        <a style="border-radius: 25px;" href="subjects.html">Subjects</a>
+                    </nav>
+                </div>
+            </header>
+                <div class="hero">
+                    <div>
+                        <video width="650" height="350" controls>
+                            <source src="assets/videoHogwarts.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <h3 style="color: white;">Hello Wizzards, rise your wands..</h3>
+                    <p>
+                        Hogwarts School of Witchcraft and Wizardry, often shortened to Hogwarts, was a Scottish wizarding school located in the Scottish Highlands.
+                        <br /> It accepted any magical student residing in the islands of Great Britain and Ireland at the age of eleven years old at the start of the incoming term for enrolment. <br /> It was a state-owned school, funded by the British Ministry of Magic.<br />
+                    </p>
+                </div>
+        </div>
+    <!-- Home end -->
+
+    <!-- Contact -->
+        <div class="hero">
+            <h2>CONTACT</h2>
+            <p>Prepare yourself by knowing more about Hogwarts, before you are invited by hogwarts!</p>
+            <form action="hasil.html" method="post">
+                <label for="messange">Send me any messange below :</label> <br>
+                <input style="width: 250px; height: 150px;" type="text" id="messange" name="messange" placeholder="Write here..."><br>
+                <input style="margin-top: 15px;" type="submit" value="submit">
+            </form>
+                <div>
+                    <a href="https://instagram.com/hogwartslegacy?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                        <p><i class="instagram"></i>Instagram</p>
+                    </a>
+                    <a href="https://x.com/HogwartsLegacy?t=b8RmlvTWr66XRSB2sZ5usg&s=09" target="_blank">
+                        <p><i class="Twitter"></i>Twitter</p>
+                    </a>
+                    <a href="https://youtu.be/1O6Qstncpnc?si=cnD_teZ2RYR51KPz" target="_blank">
+                        <p><i class="Youtube"></i>Youtube</p>
+                    </a>
+                </div>
+        </div>
+
+    <!-- Contact end -->
+
+    <!-- Footer -->
+        
+    <footer style="padding-top: 8%;">
+        <p align="center" style="margin-top: 20px;">Made by <a href="https://www.linkedin.com/in/zahra-areefa-ananta-28566124b">Zahra Areefa Ananta</a> using HTML </p>
+    </footer>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+
+    </body>
+    <!-- Footer end-->
+
+</html>
